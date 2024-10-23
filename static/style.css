@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #a0d7e9, #f4f4f4); /* Fondo matizado entre azul y celeste */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px; /* Aumento de padding */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Tamaño de letra grande */
+    color: #333; /* Color de texto */
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+.formulario input {
+    padding: 15px; /* Aumento de padding */
+    margin: 10px 0; /* Espaciado vertical */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordes más redondeados */
+    font-size: 1.2em; /* Tamaño de letra más grande */
+}
+
+.formulario button {
+    padding: 15px 20px; /* Aumento de padding */
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Bordes más redondeados */
+    cursor: pointer;
+    font-size: 1.2em; /* Tamaño de letra más grande */
+}
+
+.formulario button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px; /* Aumento de padding */
+    text-align: left;
+    font-size: 1.1em; /* Tamaño de letra más grande */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1em; /* Tamaño de letra más grande */
+}
+
+a:hover {
+    text-decoration: underline;
+}
